@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(53, 156, 175, 1) 0%,
+    rgba(66, 66, 110, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+/* Container for adding Task */
+.contianer-input {
+  width: 525px;
+  height: 75px;
+  margin: 50px auto;
+
+  margin-bottom: 35px;
+  background-color: lightgray;
+  border-radius: 30px;
+}
+/* Tasks Container */
+.container-tasks {
+  width: 525px;
+  height: 75px;
+  background-color: lightgray;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  border-radius: 25px;
+}
+#task {
+  display: inline-block;
+
+  width: 440px;
+
+  margin-top: 13px;
+  margin-left: 5px;
+  font-size: 25px;
+  border-radius: 25px;
+  width: 440px;
+  padding: 10px;
+  border: 0;
+  margin-right: 0;
+  padding-right: 0px;
+}
+
+/* Title */
+header {
+  text-align: center;
+  margin-top: 10px;
+  line-height: 2.5rem;
+}
+/* Input text Box */
+input[type="text"] {
+  display: inline-block;
+  /* Maybe */
+  margin-top: 13px;
+  margin-left: 5px;
+  font-size: 25px;
+  border-radius: 25px;
+  width: 440px;
+  padding: 10px;
+  border: 0;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+.btn.submit:focus {
+  outline: none;
+}
+.btn.submit:hover {
+  background-color: lightblue;
+}
+.btn {
+  padding: 0;
+  display: inline-block;
+  background-color: dodgerblue;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border: none;
+  margin-left: 5px;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+/* Icons */
+
+.delBtn i {
+  color: white;
+}
+.btn.submit i {
+  color: white;
+}
+
+/* Delete Button */
+.delBtn {
+  padding: 0px;
+  display: inline-block;
+  background-color: red;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border: none;
+  margin-left: 5px;
+  margin-right: 0;
+}
+.delBtn:focus {
+  outline: none;
+}
+.delBtn:hover {
+  background-color: rgb(255, 88, 88);
+}
